@@ -10,9 +10,9 @@ public class Empresa
 
     public string? Nombre { get; set; }
     public string? Direccion { get; set; }
-    public static List<Estudiante>? Profesores { get; set; } = new List<Estudiante>();
+    //public static List<Estudiante>? Profesores { get; set; } = new List<Estudiante>();
 
-    public Empresa(string nombre, string direccion, List<Estudiante)
+    public Empresa(string nombre, string direccion)
     {
         Nombre = nombre;
         Direccion = direccion;
